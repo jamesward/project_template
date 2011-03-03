@@ -3,7 +3,6 @@ package com.jamesward;
 
 import java.util.List;
 
-import org.h2.engine.User;
 import org.springframework.flex.remoting.RemotingDestination;
 import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
@@ -11,7 +10,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
