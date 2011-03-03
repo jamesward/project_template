@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.jamesward</groupId>
+  <artifactId>project_template</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>Project Template</name>
+
+  <properties>
+    <flexmojos.version>4.0-SNAPSHOT</flexmojos.version>
+    <flex.version>4.5.0.18623</flex.version>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>flexmojos</id>
+      <url>http://repository.sonatype.org/content/groups/flexgroup</url>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+    </repository>
+    <repository>
+      <id>spring-external</id>
+      <url>http://maven.springframework.org/external</url>
+    </repository>
+    <repository>
+      <id>spring-milestone</id>
+      <url>http://maven.springframework.org/milestone</url>
+    </repository>
+    <repository>
+      <id>jboss</id>
+      <url>https://repository.jboss.org/nexus/content/groups/public</url>
+    </repository>
+  </repositories>
+  
+  <pluginRepositories>
+    <pluginRepository>
+      <id>flexmojos</id>
+      <url>http://repository.sonatype.org/content/groups/flexgroup</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+  <modules>
+    <module>browser_flex_app</module>
+    <module>server</module>
+  </modules>
+
+</project>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+  <swf size="1154057" compressedSize="540392">
+
+    <!-- Header data (SWF attributes, product info, markers, etc.) -->
+    <headerData totalSize="447">
+      <data type="metaData" size="328"/>
+      <data type="enableDebugger" size="33"/>
+      <data type="productInfo" size="28"/>
+      <data type="swfHeader" size="21"/>
+      <data type="debugID" size="18"/>
+      <data type="fileAttributes" size="6"/>
+      <data type="scriptLimits" size="6"/>
+      <data type="backgroundColor" size="5"/>
+      <data type="endMarker" size="2"/>
+    </headerData>
+
+    <!-- Cumulative frame size summary. -->
+    <frames totalSize="1153610">
+      <frame name="_browser_flex_app_mx_managers_SystemManager" size="126966" frame="1"/>
+      <frame name="browser_flex_app" size="1026644" frame="2"/>
+    </frames>
+
+    <!-- Actionscript code and constant data. -->
+    <actionScript totalSize="1139566">
+      <abc name="mx/core/UIComponent" size="105298" frame="2"/>
+      <abc name="spark/primitives/supportClasses/GraphicElement" size="45923" frame="2"/>
+      <abc name="mx/managers/SystemManager" size="34557" frame="1"/>
+      <abc name="spark/layouts/HorizontalLayout" size="25985" frame="2"/>
+      <abc name="spark/components/supportClasses/GroupBase" size="23997" frame="2"/>
+      <abc name="spark/layouts/VerticalLayout" size="23325" frame="2"/>
+      <abc name="mx/managers/FocusManager" size="22114" frame="2"/>
+      <abc name="mx/core/UITextField" size="22013" frame="2"/>
+      <abc name="spark/components/Group" size="21725" frame="2"/>
+      <abc name="spark/components/DataGroup" size="20337" frame="2"/>
+      <abc name="mx/styles/StyleManagerImpl" size="16946" frame="2"/>
+      <abc name="spark/layouts/supportClasses/LayoutBase" size="15390" frame="2"/>
+      <abc name="mx/effects/Effect" size="15321" frame="2"/>
+      <abc name="mx/utils/MatrixUtil" size="15208" frame="2"/>
+      <abc name="mx/managers/ToolTipManagerImpl" size="14644" frame="2"/>
+      <abc name="_browser_flex_app_Styles" size="13669" frame="2"/>
+      <abc name="spark/components/Application" size="13424" frame="2"/>
+      <abc name="spark/components/supportClasses/SkinnableComponent" size="13309" frame="2"/>
+      <abc name="mx/core/AdvancedLayoutFeatures" size="13132" frame="2"/>
+      <abc name="mx/resources/ResourceManagerImpl" size="12884" frame="2"/>
+      <abc name="mx/preloaders/SparkDownloadProgressBar" size="12819" frame="1"/>
+      <abc name="spark/components/SkinnableContainer" size="12323" frame="2"/>
+      <abc name="mx/utils/ObjectUtil" size="12180" frame="2"/>
+      <abc name="spark/layouts/supportClasses/LinearLayoutVector" size="12053" frame="2"/>
+      <abc name="mx/core/IUITextField" size="10915" frame="2"/>
+      <abc name="mx/styles/StyleProtoChain" size="10762" frame="2"/>
+      <abc name="mx/managers/CursorManagerImpl" size="10390" frame="2"/>
+      <abc name="mx/effects/EffectManager" size="10368" frame="2"/>
+      <abc name="mx/modules/ModuleManager" size="10360" frame="2"/>
+      <abc name="mx/resources/LocaleSorter" size="9969" frame="2"/>
+      <abc name="spark/primitives/Rect" size="9051" frame="2"/>
+      <abc name="mx/styles/CSSStyleDeclaration" size="8243" frame="2"/>
+      <abc name="mx/geom/CompoundTransform" size="8177" frame="2"/>
+      <abc name="mx/states/AddItems" size="8057" frame="2"/>
+      <abc name="mx/effects/EffectInstance" size="7789" frame="2"/>
+      <abc name="spark/skins/spark/ApplicationSkin" size="7523" frame="2"/>
+      <abc name="mx/managers/LayoutManager" size="7493" frame="2"/>
+      <abc name="mx/styles/StyleManager" size="7478" frame="2"/>
+      <abc name="mx/core/SpriteAsset" size="7303" frame="2"/>
+      <abc name="mx/preloaders/Preloader" size="6878" frame="1"/>
+      <abc name="mx/skins/ProgrammaticSkin" size="6836" frame="2"/>
+      <abc name="mx/graphics/RectangularDropShadow" size="6803" frame="1"/>
+      <abc name="mx/core/LayoutElementUIComponentUtils" size="6443" frame="2"/>
+      <abc name="mx/controls/ToolTip" size="6088" frame="2"/>
+      <abc name="mx/managers/systemClasses/ChildManager" size="6034" frame="2"/>
+      <abc name="mx/core/IFlexDisplayObject" size="6004" frame="1"/>
+      <abc name="mx/skins/RectangularBorder" size="5870" frame="2"/>
+      <abc name="spark/layouts/BasicLayout" size="5622" frame="2"/>
+      <abc name="mx/effects/effectClasses/ZoomInstance" size="5563" frame="2"/>
+      <abc name="mx/effects/Tween" size="5493" frame="2"/>
+      <abc name="mx/core/IContainer" size="5482" frame="2"/>
+      <abc name="mx/core/EmbeddedFontRegistry" size="5452" frame="2"/>
+      <abc name="mx/utils/ObjectProxy" size="5329" frame="2"/>
+      <abc name="mx/containers/utilityClasses/Flex" size="5033" frame="2"/>
+      <abc name="mx/graphics/GradientBase" size="4924" frame="2"/>
+      <abc name="mx/core/ILayoutElement" size="4753" frame="2"/>
+      <abc name="mx/utils/LoaderUtil" size="4707" frame="1"/>
+      <abc name="mx/binding/Binding" size="4556" frame="2"/>
+      <abc name="mx/core/IAssetLayoutFeatures" size="4498" frame="2"/>
+      <abc name="mx/skins/halo/HaloFocusRect" size="4449" frame="2"/>
+      <abc name="mx/core/IUIComponent" size="4431" frame="1"/>
+      <abc name="en_US$components_properties" size="4191" frame="2"/>
+      <abc name="mx/utils/UIDUtil" size="4080" frame="2"/>
+      <abc name="spark/skins/spark/SkinnableContainerSkin" size="3990" frame="2"/>
+      <abc name="spark/components/supportClasses/Skin" size="3981" frame="2"/>
+      <abc name="mx/effects/IEffectInstance" size="3944" frame="2"/>
+      <abc name="mx/managers/layoutClasses/PriorityQueue" size="3930" frame="2"/>
+      <abc name="spark/primitives/supportClasses/StrokedElement" size="3843" frame="2"/>
+      <abc name="mx/effects/IEffect" size="3830" frame="2"/>
+      <abc name="mx/events/FlexEvent" size="3828" frame="1"/>
+      <abc name="mx/styles/IStyleManager" size="3754" frame="2"/>
+      <abc name="mx/styles/StyleProxy" size="3742" frame="2"/>
+      <abc name="mx/states/SetProperty" size="3742" frame="2"/>
+      <abc name="mx/core/UITextFormat" size="3684" frame="2"/>
+      <abc name="mx/managers/ToolTipManager" size="3643" frame="2"/>
+      <abc name="mx/resources/IResourceManager" size="3529" frame="1"/>
+      <abc name="mx/graphics/LinearGradientStroke" size="3503" frame="2"/>
+      <abc name="mx/geom/TransformOffsets" size="3489" frame="2"/>
+      <abc name="spark/skins/spark/HighlightBitmapCaptureSkin" size="3414" frame="2"/>
+      <abc name="mx/binding/BindabilityInfo" size="3354" frame="2"/>
+      <abc name="mx/managers/ISystemManager" size="3348" frame="1"/>
+      <abc name="mx/geom/Transform" size="3329" frame="2"/>
+      <abc name="mx/styles/CSSMergedStyleDeclaration" size="3324" frame="2"/>
+      <abc name="mx/effects/effectClasses/TweenEffectInstance" size="3295" frame="2"/>
+      <abc name="mx/core/DesignLayer" size="3252" frame="2"/>
+      <abc name="mx/graphics/GradientStroke" size="3181" frame="2"/>
+      <abc name="_browser_flex_app_FlexInit" size="3086" frame="2"/>
+      <abc name="mx/managers/IToolTipManager2" size="3024" frame="2"/>
+      <abc name="mx/automation/IAutomationObject" size="3001" frame="2"/>
+      <abc name="mx/managers/SystemChildrenList" size="2954" frame="1"/>
+      <abc name="spark/utils/FTETextUtil" size="2910" frame="2"/>
+      <abc name="mx/managers/CursorManager" size="2905" frame="2"/>
+      <abc name="_browser_flex_app_mx_managers_SystemManager" size="2900" frame="1"/>
+      <abc name="mx/graphics/LinearGradient" size="2856" frame="2"/>
+      <abc name="mx/skins/halo/ToolTipBorder" size="2845" frame="2"/>
+      <abc name="mx/core/FlexVersion" size="2713" frame="2"/>
+      <abc name="mx/utils/StringUtil" size="2704" frame="2"/>
+      <abc name="mx/core/RSLItem" size="2666" frame="1"/>
+      <abc name="mx/utils/GraphicsUtil" size="2595" frame="1"/>
+      <abc name="mx/states/OverrideBase" size="2537" frame="2"/>
+      <abc name="mx/binding/BindingManager" size="2446" frame="2"/>
+      <abc name="mx/utils/OrderedObject" size="2379" frame="2"/>
+      <abc name="mx/managers/SystemRawChildrenList" size="2377" frame="1"/>
+      <abc name="mx/utils/XMLNotifier" size="2354" frame="2"/>
+      <abc name="mx/core/IVisualElement" size="2338" frame="2"/>
+      <abc name="spark/primitives/supportClasses/FilledElement" size="2322" frame="2"/>
+      <abc name="spark/utils/MaskUtil" size="2311" frame="2"/>
+      <abc name="spark/components/supportClasses/DisplayLayer" size="2266" frame="2"/>
+      <abc name="mx/managers/IFocusManager" size="2258" frame="2"/>
+      <abc name="mx/core/RSLListLoader" size="2257" frame="1"/>
+      <abc name="mx/styles/CSSSelector" size="2232" frame="2"/>
+      <abc name="mx/skins/halo/BusyCursor" size="2176" frame="2"/>
+      <abc name="spark/skins/spark/FocusSkin" size="2121" frame="2"/>
+      <abc name="mx/managers/ICursorManager" size="2083" frame="2"/>
+      <abc name="mx/core/ResourceModuleRSLItem" size="2065" frame="1"/>
+      <abc name="mx/preloaders/IPreloaderDisplay" size="2045" frame="1"/>
+      <abc name="mx/core/IDeferredInstantiationUIComponent" size="1961" frame="2"/>
+      <abc name="mx/effects/EffectTargetFilter" size="1898" frame="2"/>
+      <abc name="mx/styles/IStyleClient" size="1876" frame="2"/>
+      <abc name="mx/graphics/SolidColor" size="1835" frame="2"/>
+      <abc name="mx/graphics/GradientEntry" size="1807" frame="2"/>
+      <abc name="mx/styles/IStyleManager2" size="1796" frame="2"/>
+      <abc name="mx/managers/ILayoutManagerClient" size="1774" frame="2"/>
+      <abc name="spark/core/IGraphicElement" size="1762" frame="2"/>
+      <abc name="mx/core/IVisualElementContainer" size="1749" frame="2"/>
+      <abc name="mx/utils/DescribeTypeCache" size="1746" frame="2"/>
+      <abc name="browser_flex_app" size="1735" frame="2"/>
+      <abc name="mx/utils/NameUtil" size="1706" frame="1"/>
+      <abc name="mx/resources/ResourceBundle" size="1697" frame="2"/>
+      <abc name="mx/styles/CSSCondition" size="1693" frame="2"/>
+      <abc name="mx/core/TextFieldFactory" size="1687" frame="2"/>
+      <abc name="mx/modules/IModuleInfo" size="1666" frame="2"/>
+      <abc name="spark/skins/spark/ErrorSkin" size="1650" frame="2"/>
+      <abc name="mx/events/SandboxMouseEvent" size="1644" frame="1"/>
+      <abc name="mx/states/State" size="1644" frame="2"/>
+      <abc name="spark/components/supportClasses/SkinnableContainerBase" size="1643" frame="2"/>
+      <abc name="mx/managers/IFocusManagerComponent" size="1622" frame="2"/>
+      <abc name="mx/effects/Zoom" size="1598" frame="2"/>
+      <abc name="mx/events/DragEvent" size="1464" frame="2"/>
+      <abc name="spark/core/IViewport" size="1464" frame="2"/>
+      <abc name="mx/core/ComponentDescriptor" size="1463" frame="2"/>
+      <abc name="spark/components/IItemRenderer" size="1462" frame="2"/>
+      <abc name="mx/core/IRepeater" size="1454" frame="2"/>
+      <abc name="spark/layouts/supportClasses/LayoutElementHelper" size="1445" frame="2"/>
+      <abc name="en_US$core_properties" size="1428" frame="2"/>
+      <abc name="mx/core/IChildList" size="1407" frame="1"/>
+      <abc name="mx/utils/OnDemandEventDispatcher" size="1404" frame="2"/>
+      <abc name="mx/events/RSLEvent" size="1393" frame="1"/>
+      <abc name="mx/core/DragSource" size="1393" frame="2"/>
+      <abc name="mx/utils/ColorUtil" size="1381" frame="2"/>
+      <abc name="mx/collections/IList" size="1375" frame="2"/>
+      <abc name="mx/effects/TweenEffect" size="1370" frame="2"/>
+      <abc name="mx/core/IFlexModuleFactory" size="1358" frame="1"/>
+      <abc name="mx/managers/ILayoutManager" size="1352" frame="2"/>
+      <abc name="mx/events/ValidationResultEvent" size="1346" frame="2"/>
+      <abc name="mx/effects/effectClasses/AddRemoveEffectTargetFilter" size="1337" frame="2"/>
+      <abc name="mx/core/UIComponentGlobals" size="1315" frame="2"/>
+      <abc name="mx/events/PropertyChangeEvent" size="1313" frame="2"/>
+      <abc name="mx/core/IEmbeddedFontRegistry" size="1308" frame="2"/>
+      <abc name="mx/events/ModuleEvent" size="1283" frame="2"/>
+      <abc name="mx/managers/IFocusManagerContainer" size="1262" frame="2"/>
+      <abc name="mx/effects/effectClasses/HideShowEffectTargetFilter" size="1257" frame="2"/>
+      <abc name="mx/core/EmbeddedFont" size="1250" frame="2"/>
+      <abc name="mx/messaging/config/LoaderConfig" size="1240" frame="2"/>
+      <abc name="spark/core/NavigationUnit" size="1238" frame="2"/>
+      <abc name="mx/core/ContainerGlobals" size="1228" frame="2"/>
+      <abc name="mx/utils/DescribeTypeCacheRecord" size="1206" frame="2"/>
+      <abc name="mx/events/FlexMouseEvent" size="1181" frame="2"/>
+      <abc name="mx/events/CollectionEvent" size="1166" frame="2"/>
+      <abc name="mx/core/IRepeaterClient" size="1157" frame="1"/>
+      <abc name="mx/managers/IActiveWindowManager" size="1157" frame="2"/>
+      <abc name="mx/managers/ISystemManagerChildManager" size="1148" frame="1"/>
+      <abc name="mx/events/ToolTipEvent" size="1144" frame="2"/>
+      <abc name="spark/events/DisplayLayerObjectExistenceEvent" size="1143" frame="2"/>
+      <abc name="spark/components/supportClasses/InvalidatingSprite" size="1119" frame="2"/>
+      <abc name="spark/events/RendererExistenceEvent" size="1107" frame="2"/>
+      <abc name="mx/styles/IAdvancedStyleClient" size="1100" frame="2"/>
+      <abc name="mx/events/EffectEvent" size="1093" frame="2"/>
+      <abc name="mx/events/ChildExistenceChangedEvent" size="1079" frame="2"/>
+      <abc name="spark/core/IGraphicElementContainer" size="1079" frame="2"/>
+      <abc name="spark/events/ElementExistenceEvent" size="1050" frame="2"/>
+      <abc name="mx/graphics/IStroke" size="1047" frame="2"/>
+      <abc name="mx/validators/IValidatorListener" size="1043" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/LuminosityMaskShader" size="1040" frame="2"/>
+      <abc name="mx/resources/ResourceManager" size="1037" frame="2"/>
+      <abc name="mx/core/IDeferredContentOwner" size="1026" frame="2"/>
+      <abc name="mx/core/Singleton" size="1024" frame="1"/>
+      <abc name="mx/events/TouchInteractionEvent" size="1021" frame="2"/>
+      <abc name="mx/events/ResourceEvent" size="1017" frame="1"/>
+      <abc name="mx/events/FlexChangeEvent" size="1004" frame="2"/>
+      <abc name="mx/core/DeferredInstanceFromFunction" size="1004" frame="2"/>
+      <abc name="mx/collections/errors/ItemPendingError" size="1003" frame="2"/>
+      <abc name="mx/events/StateChangeEvent" size="997" frame="2"/>
+      <abc name="mx/events/StyleEvent" size="996" frame="2"/>
+      <abc name="spark/events/SkinPartEvent" size="954" frame="2"/>
+      <abc name="mx/core/UIComponentDescriptor" size="925" frame="2"/>
+      <abc name="mx/binding/EvalBindingResponder" size="920" frame="2"/>
+      <abc name="mx/effects/IEffectTargetHost" size="914" frame="2"/>
+      <abc name="mx/core/IStateClient2" size="913" frame="2"/>
+      <abc name="mx/events/TweenEvent" size="912" frame="2"/>
+      <abc name="spark/skins/IHighlightBitmapCaptureClient" size="900" frame="2"/>
+      <abc name="mx/containers/utilityClasses/FlexChildInfo" size="900" frame="2"/>
+      <abc name="mx/events/DynamicEvent" size="880" frame="1"/>
+      <abc name="mx/core/IRectangularBorder" size="875" frame="2"/>
+      <abc name="mx/core/FlexTextField" size="867" frame="2"/>
+      <abc name="mx/events/CollectionEventKind" size="867" frame="2"/>
+      <abc name="mx/events/ResizeEvent" size="864" frame="2"/>
+      <abc name="mx/core/FlexSprite" size="862" frame="1"/>
+      <abc name="mx/core/FlexLoader" size="862" frame="2"/>
+      <abc name="mx/events/Request" size="850" frame="1"/>
+      <abc name="mx/states/Transition" size="845" frame="2"/>
+      <abc name="mx/events/MoveEvent" size="837" frame="2"/>
+      <abc name="en_US$layout_properties" size="835" frame="2"/>
+      <abc name="spark/layouts/supportClasses/Block" size="815" frame="2"/>
+      <abc name="mx/managers/IFocusManagerGroup" size="812" frame="2"/>
+      <abc name="mx/core/EdgeMetrics" size="808" frame="2"/>
+      <abc name="mx/managers/SystemManagerGlobals" size="795" frame="1"/>
+      <abc name="mx/core/FlexShape" size="795" frame="1"/>
+      <abc name="mx/managers/IFocusManagerComplexComponent" size="783" frame="2"/>
+      <abc name="mx/core/ILayoutDirectionElement" size="768" frame="2"/>
+      <abc name="mx/effects/effectClasses/PropertyChanges" size="764" frame="2"/>
+      <abc name="_browser_flex_app_Styles__embed_css_Assets_swf_mx_skins_cursor_BusyCursor_867550771" size="759" frame="2"/>
+      <abc name="mx/skins/Border" size="757" frame="2"/>
+      <abc name="mx/validators/ValidationResult" size="749" frame="2"/>
+      <abc name="mx/core/ApplicationDomainTarget" size="734" frame="1"/>
+      <abc name="spark/components/IItemRendererOwner" size="733" frame="2"/>
+      <abc name="mx/core/IInvalidating" size="731" frame="1"/>
+      <abc name="mx/core/ISWFBridgeProvider" size="728" frame="2"/>
+      <abc name="mx/styles/ISimpleStyleClient" size="709" frame="2"/>
+      <abc name="mx/core/EventPriority" size="703" frame="2"/>
+      <abc name="mx/core/ISWFLoader" size="698" frame="2"/>
+      <abc name="mx/geom/RoundedRectangle" size="697" frame="2"/>
+      <abc name="mx/utils/BitFlagUtil" size="696" frame="2"/>
+      <abc name="flashx/textLayout/compose/ISWFContext" size="695" frame="1"/>
+      <abc name="mx/core/ContainerCreationPolicy" size="694" frame="2"/>
+      <abc name="spark/components/supportClasses/OverlayDepth" size="693" frame="2"/>
+      <abc name="mx/filters/BaseFilter" size="687" frame="2"/>
+      <abc name="spark/layouts/VerticalAlign" size="686" frame="2"/>
+      <abc name="mx/resources/IResourceBundle" size="682" frame="1"/>
+      <abc name="mx/managers/IToolTipManagerClient" size="657" frame="2"/>
+      <abc name="spark/core/DisplayObjectSharingMode" size="655" frame="2"/>
+      <abc name="mx/managers/CursorManagerPriority" size="655" frame="2"/>
+      <abc name="mx/core/ITextFieldFactory" size="653" frame="2"/>
+      <abc name="spark/layouts/supportClasses/DropLocation" size="651" frame="2"/>
+      <abc name="spark/layouts/HorizontalAlign" size="649" frame="2"/>
+      <abc name="mx/controls/IFlexContextMenu" size="640" frame="2"/>
+      <abc name="mx/core/UIComponentCachePolicy" size="639" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/LuminosityShader" size="637" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/ColorDodgeShader" size="637" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/SaturationShader" size="637" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/ColorBurnShader" size="630" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/ExclusionShader" size="630" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/SoftLightShader" size="630" frame="2"/>
+      <abc name="mx/events/PropertyChangeEventKind" size="628" frame="2"/>
+      <abc name="spark/core/ISharedDisplayObject" size="625" frame="2"/>
+      <abc name="mx/core/IFontContextComponent" size="619" frame="2"/>
+      <abc name="mx/core/IConstraintClient" size="612" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/ColorShader" size="602" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/HueShader" size="588" frame="2"/>
+      <abc name="spark/core/MaskType" size="586" frame="2"/>
+      <abc name="mx/core/IButton" size="585" frame="2"/>
+      <abc name="mx/core/IIMESupport" size="583" frame="2"/>
+      <abc name="mx/states/IOverride" size="583" frame="2"/>
+      <abc name="mx/styles/CSSConditionKind" size="569" frame="2"/>
+      <abc name="mx/core/ByteArrayAsset" size="568" frame="2"/>
+      <abc name="mx/core/InteractionMode" size="566" frame="2"/>
+      <abc name="mx/core/IToolTip" size="564" frame="2"/>
+      <abc name="mx/core/IProgrammaticSkin" size="562" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/LuminosityMaskShader_ShaderClass" size="560" frame="2"/>
+      <abc name="mx/core/LayoutDirection" size="559" frame="2"/>
+      <abc name="mx/styles/IStyleModule" size="556" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/LuminosityShader_ShaderClass" size="540" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/ColorDodgeShader_ShaderClass" size="540" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/SaturationShader_ShaderClass" size="540" frame="2"/>
+      <abc name="mx/graphics/IFill" size="539" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/ColorBurnShader_ShaderClass" size="535" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/ExclusionShader_ShaderClass" size="535" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/SoftLightShader_ShaderClass" size="535" frame="2"/>
+      <abc name="mx/core/ITransientDeferredInstance" size="532" frame="2"/>
+      <abc name="mx/core/IFlexModule" size="516" frame="1"/>
+      <abc name="mx/graphics/shaderClasses/ColorShader_ShaderClass" size="515" frame="2"/>
+      <abc name="mx/core/IStateClient" size="511" frame="2"/>
+      <abc name="mx/utils/IXMLNotifiable" size="508" frame="2"/>
+      <abc name="mx/graphics/shaderClasses/HueShader_ShaderClass" size="505" frame="2"/>
+      <abc name="mx/states/InterruptionBehavior" size="505" frame="2"/>
+      <abc name="mx/core/ISystemCursorClient" size="498" frame="2"/>
+      <abc name="mx/core/IDataRenderer" size="498" frame="2"/>
+      <abc name="mx/resources/IResourceModule" size="497" frame="2"/>
+      <abc name="mx/core/IRawChildrenContainer" size="490" frame="1"/>
+      <abc name="spark/components/ResizeMode" size="488" frame="2"/>
+      <abc name="mx/rpc/IResponder" size="470" frame="2"/>
+      <abc name="mx/modules/ModuleManagerGlobals" size="466" frame="2"/>
+      <abc name="mx/core/IDeferredInstance" size="452" frame="2"/>
+      <abc name="mx/filters/IBitmapFilter" size="447" frame="2"/>
+      <abc name="mx/core/IMXMLObject" size="437" frame="2"/>
+      <abc name="en_US$effects_properties" size="436" frame="2"/>
+      <abc name="mx/core/IUID" size="404" frame="2"/>
+      <abc name="mx/core/FlexGlobals" size="395" frame="2"/>
+      <abc name="mx/core/IPropertyChangeNotifier" size="391" frame="2"/>
+      <abc name="mx/core/IBorder" size="383" frame="2"/>
+      <abc name="mx/core/IFactory" size="368" frame="2"/>
+      <abc name="mx/effects/IAbstractEffect" size="354" frame="2"/>
+      <abc name="en_US$styles_properties" size="335" frame="2"/>
+      <abc name="en_US$skins_properties" size="319" frame="2"/>
+      <abc name="mx/binding/IBindingClient" size="310" frame="2"/>
+      <abc name="mx/core/IToggleButton" size="293" frame="2"/>
+      <abc name="mx/core/IFlexAsset" size="279" frame="2"/>
+      <abc name="mx/modules/IModule" size="275" frame="2"/>
+      <abc name="mx/utils/object_proxy" size="241" frame="2"/>
+      <abc name="mx/core/mx_internal" size="221" frame="1"/>
+    </actionScript>
+
+    <!-- defineSprite. -->
+    <sprites totalSize="23">
+      <sprite name="_browser_flex_app_Styles__embed_css_Assets_swf_mx_skins_cursor_BusyCursor_867550771" size="23" frame="2"/>
+    </sprites>
+
+    <!-- defineShape/2/3/4. -->
+    <shapes totalSize="261">
+      <shape size="261" frame="2"/>
+    </shapes>
+
+    <!-- SWF, Pixel Bender, or other miscellaneous embed data. -->
+    <binaryData totalSize="12506">
+      <data name="mx.graphics.shaderClasses.SaturationShader_ShaderClass" size="2298" frame="2"/>
+      <data name="mx.graphics.shaderClasses.HueShader_ShaderClass" size="2268" frame="2"/>
+      <data name="mx.graphics.shaderClasses.SoftLightShader_ShaderClass" size="1920" frame="2"/>
+      <data name="mx.graphics.shaderClasses.LuminosityShader_ShaderClass" size="1282" frame="2"/>
+      <data name="mx.graphics.shaderClasses.ColorShader_ShaderClass" size="1272" frame="2"/>
+      <data name="mx.graphics.shaderClasses.ColorBurnShader_ShaderClass" size="1144" frame="2"/>
+      <data name="mx.graphics.shaderClasses.ColorDodgeShader_ShaderClass" size="1074" frame="2"/>
+      <data name="mx.graphics.shaderClasses.ExclusionShader_ShaderClass" size="624" frame="2"/>
+      <data name="mx.graphics.shaderClasses.LuminosityMaskShader_ShaderClass" size="624" frame="2"/>
+    </binaryData>
+
+    <!-- Additional frame tags (symbolClass, exportAssets, showFrame, etc). -->
+    <frameData totalSize="1254">
+      <tag type="symbolClass" size="596" frame="2"/>
+      <tag type="exportAssets" size="539" frame="2"/>
+      <tag type="symbolClass" size="50" frame="1"/>
+      <tag type="frameLabel" size="46" frame="1"/>
+      <tag type="frameLabel" size="19" frame="2"/>
+      <tag type="showFrame" size="2" frame="1"/>
+      <tag type="showFrame" size="2" frame="2"/>
+    </frameData>
+  </swf>
+</report>

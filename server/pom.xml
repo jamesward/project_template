@@ -1,0 +1,142 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  
+  <properties>
+    <spring-flex-core.version>1.5.0.M2</spring-flex-core.version>
+    <spring.version>3.0.5.RELEASE</spring.version>
+    <hibernate.version>3.6.1.Final</hibernate.version>
+    <javassist.version>3.14.0-GA</javassist.version>
+    <h2.version>1.2.147</h2.version>
+    <hibernate-validator.version>4.1.0.Final</hibernate-validator.version>
+    <junit.version>4.8.2</junit.version>
+  </properties>
+
+  <parent>
+    <groupId>com.jamesward</groupId>
+    <artifactId>project_template</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>server</artifactId>
+  <packaging>war</packaging>
+
+  <name>Server</name>
+
+  <build>
+    <finalName>project_template</finalName>
+    <plugins>
+<!--      <plugin>
+        <groupId>org.sonatype.flexmojos</groupId>
+        <artifactId>flexmojos-maven-plugin</artifactId>
+        <version>${flexmojos.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>wrapper</goal>
+              <goal>copy-flex-resources</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <wrapperArtifact>
+            <groupId>com.jamesward</groupId>
+            <artifactId>browser_flex_app</artifactId>
+            <version>1.0-SNAPSHOT</version>
+          </wrapperArtifact>
+        </configuration>
+      </plugin>-->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>2.1.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.7.1</version>
+        <configuration>
+          <includes>
+            <include>**/*Tests.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+
+  <dependencies>
+<!--    <dependency>
+      <groupId>com.jamesward</groupId>
+      <artifactId>browser_flex_app</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>swf</type>
+    </dependency>-->
+
+    <dependency>
+      <groupId>org.springframework.flex</groupId>
+      <artifactId>spring-flex-core</artifactId>
+      <version>${spring-flex-core.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-tx</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-core</artifactId>
+      <version>${hibernate.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>${hibernate-validator.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>${hibernate.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.javassist</groupId>
+      <artifactId>javassist</artifactId>
+      <version>${javassist.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>com.h2database</groupId>
+        <artifactId>h2</artifactId>
+        <version>${h2.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-simple</artifactId>
+        <version>1.6.1</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${junit.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>${spring.version}</version>
+      <scope>test</scope>
+    </dependency>
+    
+  </dependencies>
+
+</project>

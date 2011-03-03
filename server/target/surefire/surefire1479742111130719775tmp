@@ -1,0 +1,5 @@
+#surefire
+#Thu Mar 03 07:39:10 MST 2011
+user.dir=/home/jamesw/projects/project_template/server
+localRepository=/home/jamesw/.m2/repository
+basedir=/home/jamesw/projects/project_template/server

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.adobe.flex.framework:advancedgrids:swc:4.5.0.18623">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/flex/framework/advancedgrids/4.5.0.18623/advancedgrids-4.5.0.18623.swc!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/flex/framework/advancedgrids/4.5.0.18623/advancedgrids-4.5.0.18623-asdoc.zip!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/adobe/flex/framework/advancedgrids/4.5.0.18623/advancedgrids-4.5.0.18623-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
